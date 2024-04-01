@@ -1,2 +1,12 @@
 // ECHO is on.
-# CodePlatform Readme file here. 
+# CodePlatform Problem Setting service file here. 
+
+----------------------------
+
+
+## How routing is working in the project
+
+ - /api/v1/problems/ping
+    - because the route starts with /api
+        /api      -> /v1      -> /problems     -> /ping
+        apiRouter -> v1Router -> problemRouter -> problemController -> service layer
